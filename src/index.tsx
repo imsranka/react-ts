@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import UserDetails from "./examples/User";
+import Form from "./examples/Form";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,7 +13,8 @@ ReactDOM.render(
     {/* <App headerText={"This is a header"} extraText={"Some extra text"}/> */}
     {/* uncomment below line to see what happens if you pass a number instead of string */}
     {/* <App headerText={"This is a header"} extraText={10} /> */}
-    <UserDetails />
+    {/* <UserDetails /> */}
+    <Form />
   </React.StrictMode>,
   document.getElementById("root")
 );
