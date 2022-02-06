@@ -7,6 +7,10 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <App headerText={"This is a header"} />
+    {/* uncomment below line to override default text */}
+    {/* <App headerText={"This is a header"} extraText={"Some extra text"}/> */}
+    {/* uncomment below line to see what happens if you pass a number instead of string */}
+    {/* <App headerText={"This is a header"} extraText={10} /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
